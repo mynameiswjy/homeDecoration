@@ -1,13 +1,70 @@
-<!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
+<view>
+  <swiper class="swiper" circular>
+    <swiper-item wx:for="{{3}}" wx:key="index">
+      <view class="swiper_item">
+
+      </view>
+    </swiper-item>
+  </swiper>
+  <view class="menu_wrap flex">
+    <view class="menu_item {{(index+1)%4 == 0?'':'menu_right'}}" wx:for="{{8}}" wx:key="index">
+      <image class="menu_img" src="" mode="widthFix"></image>
+      <view>监理服务</view>
+    </view>
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+  <image src="" class="ad" mode="widthFix"></image>
+  <view class="exclusive flex">
+    <view class="exclusive_left">
+      <view class="txt">全托服务</view>
+      <view style="margin-left: 20rpx;">全屋整装全托服务</view>
+    </view>
+    <view class="exclusive_right">
+      <view class="top">
+        <view class="txt">全托服务</view>
+        <view class="txt1">全屋整装全托服务</view>
+      </view>
+      <view class="bottom">
+        <view class="txt">全托服务</view>
+        <view class="txt1">全屋整装全托服务</view>
+      </view>
+    </view>
+  </view>
+  <view class="recommend_title flex">
+    <view class="border_left"></view>
+    <view style="margin-left: 16rpx;">最新推荐</view>
+  </view>
+  <view class="goods_list flex">
+    <view class="goods_item">
+      <view class="item">
+        <image src="" mode="widthFix" class="goods_img"></image>
+        <view class="txt">简约后古典成时尚布艺, 装修必不可少复古成浪潮</view>
+        <view class="flex goods_item_bottom">
+          <view class="flex" style="align-items: center">
+            <image src="" mode="widthFix" class="avatar"></image>
+            <view class="txt1">张三设计师</view>
+          </view>
+          <view class="flex" style="align-items: center;">
+            <view class="iconfont iconaixin"></view>
+            <view class="">66</view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="goods_item" style="margin-left: 16rpx;">
+      <view class="item">
+        <image src="" mode="widthFix" class="goods_img"></image>
+        <view class="txt">简约后古典成时尚布艺, 装修必不可少复古成浪潮</view>
+        <view class="flex goods_item_bottom">
+          <view class="flex" style="align-items: center">
+            <image src="" mode="widthFix" class="avatar"></image>
+            <view class="txt1">张三设计师</view>
+          </view>
+          <view class="flex" style="align-items: center;">
+            <view class="iconfont iconaixin"></view>
+            <view class="">66</view>
+          </view>
+        </view>
+      </view>
+    </view>
   </view>
 </view>
