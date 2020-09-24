@@ -1,0 +1,11 @@
+<view class="order_top">
+    <view class="order_name">张三，你好</view>
+    <view class="txt">施工进度</view>
+    <view class="progress flex">
+        <view class="progress_item {{index+1==6?'':'progress_item_right'}}" wx:for="{{6}}" wx:key="index">
+            <view class="icon {{index+1==6?'':'icon1'}}"></view>
+            <view class="name">预定</view>
+        </view>
+    </view>
+</view>
+<view></view>
