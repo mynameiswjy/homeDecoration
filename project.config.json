@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
 	"description": "项目配置文件",
 	"packOptions": {
 		"ignore": []
@@ -68,4 +69,86 @@
 			"list": []
 		}
 	}
+=======
+  "description": "项目配置文件",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": true,
+    "es6": true,
+    "enhance": false,
+    "postcss": true,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "newFeature": false,
+    "coverView": true,
+    "nodeModules": false,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
+    "useMultiFrameRuntime": false,
+    "useApiHook": false,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "useIsolateContext": true,
+    "useCompilerModule": true,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": []
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.13.0",
+  "appid": "wx410fc416f1e4f1f3",
+  "projectname": "miniProgram",
+  "cloudfunctionTemplateRoot": "",
+  "watchOptions": {
+    "ignore": []
+  },
+  "debugOptions": {
+    "hidedInDevtools": []
+  },
+  "scripts": {},
+  "condition": {
+    "search": {
+      "current": -1,
+      "list": []
+    },
+    "conversation": {
+      "current": -1,
+      "list": []
+    },
+    "plugin": {
+      "current": -1,
+      "list": []
+    },
+    "game": {
+      "current": -1,
+      "list": []
+    },
+    "gamePlugin": {
+      "current": -1,
+      "list": []
+    },
+    "miniprogram": {
+      "current": -1,
+      "list": [
+        {
+          "id": -1,
+          "name": "服务订单",
+          "pathName": "pages/serveOrder/serveOrder",
+          "scene": null
+        }
+      ]
+    }
+  }
+>>>>>>> 4d7f850b402877e742c44e21dc7dde9089e8b3bb
 }

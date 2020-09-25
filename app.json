@@ -2,7 +2,8 @@
   "pages":[
     "pages/index/index",
     "pages/serve/serve",
-    "pages/mine/mine"
+    "pages/mine/mine",
+    "pages/serveOrder/serveOrder"
   ],
   "window":{
     "backgroundTextStyle":"light",

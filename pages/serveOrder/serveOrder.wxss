@@ -1,0 +1,63 @@
+
+.order_top {
+    width: 750rpx;
+    height: 375rpx;
+    background-color: #ccc;
+    color: #fff;
+}
+
+.order_name {
+    font-size: 36rpx;
+    line-height: 1;
+    padding-top: 88rpx;
+    margin: 0 0 32rpx 30rpx;
+    font-weight: 600;
+}
+
+.order_top .txt {
+   font-size: 28rpx;
+    line-height: 1;
+    margin-left: 30rpx;
+}
+
+.progress {
+    width: 750rpx;
+}
+
+.progress_item {
+    text-align: center;
+    width: 120rpx;
+    justify-content: center;
+    flex: 1;
+    margin-top: 75rpx;
+}
+
+.progress_item_right {
+}
+
+.progress_item .icon {
+    width: 30rpx;
+    height: 30rpx;
+    background-color: #fff;
+    border-radius: 30rpx;
+    margin-bottom: 12rpx;
+    position: relative;
+    margin-left: 45rpx;
+}
+
+.progress_item .icon1:after {
+    content: '';
+    width: 126rpx;
+    height: 4rpx;
+    position: absolute;
+    background-color: #fff;
+    transform: translateY(-50%);
+    left: 15rpx;
+    top: 50%;
+}
+
+.progress_item .name {
+    color: #fff;
+    font-size: 24rpx;
+    width: 120rpx;
+}
