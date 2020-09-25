@@ -27,7 +27,7 @@
 			"outputPath": ""
 		},
 		"useIsolateContext": true,
-		"useCompilerModule": true,
+		"useCompilerModule": false,
 		"userConfirmedUseCompilerModuleSwitch": false
 	},
 	"compileType": "miniprogram",
@@ -42,6 +42,8 @@
 		"hidedInDevtools": []
 	},
 	"scripts": {},
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
 	"condition": {
 		"search": {
 			"current": -1,
@@ -70,6 +72,13 @@
 					"id": -1,
 					"name": "服务订单",
 					"pathName": "pages/serveOrder/serveOrder",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "预订",
+					"pathName": "pages/subscribe/subscribe",
 					"scene": null
 				}
 			]

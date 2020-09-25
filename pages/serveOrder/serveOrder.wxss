@@ -155,6 +155,7 @@ page {
 .user_info .progress_item .icon1:after {
     background-color: #ccc;
     width: 114rpx;
+    left: 28rpx;
 }
 
 .user_info .progress_item .name {

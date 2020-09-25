@@ -1,0 +1,28 @@
+<view>
+    <view style="height: 485rpx;"></view>
+    <view class="flow_wrap">
+        <view class="flow_title">服务流程</view>
+        <view class="flex flow_list">
+            <block wx:for="{{flowPath}}" wx:key="index">
+                <view class="flow_item">
+                    <image src="" mode="" class="img"></image>
+                    <view>{{item.name}}</view>
+                </view>
+                <image src="" class="arrows" wx:if="{{index+1!==4}}"></image>
+            </block>
+        </view>
+        <view class="flex input_wrap">
+            <view class="flex">
+                <view class="iconfont icondingwei"></view>
+                <view>您的位置</view>
+            </view>
+            <view class="iconfont iconxiangyou"></view>
+        </view>
+        <view class="flex input_wrap">
+            <view class="iconfont iconshoujihao"></view>
+            <input type="text" placeholder="您的电话" class="input" placeholder-style="color: #ccc;"/>
+        </view>
+        <view class="subscribe_btn">立即预约</view>
+    </view>
+</view>
+<view class="page_bg" style="background-image: url('./subscribe_bg.png')"></view>
