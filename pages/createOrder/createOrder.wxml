@@ -1,0 +1,47 @@
+
+<view style="height: 20rpx;"></view>
+<view class="flex address">
+    <view>
+        <view class="flex top">
+            <view class="name">王先生</view>
+            <view>14525485956</view>
+        </view>
+        <view class="bottom">详细地址：山西省运城市盐湖区南风广场小商品 南风天地</view>
+    </view>
+    <view class="iconfont iconxiangyou"></view>
+</view>
+<image src="" class="division"></image>
+<view class="order_info">
+    <view class="flex goods_info">
+        <image src="" class="goods_img"></image>
+        <view class="flex right">
+            <view>
+                <view class="goods_name">工人工时费（品牌墙布免费送）</view>
+                <view class="goods_price"><text style="font-size: 24rpx;">¥</text>28.9</view>
+            </view>
+            <view class="goods_num">x1</view>
+        </view>
+    </view>
+    <view class="flex serve">
+        <view>服务时间</view>
+        <view class="iconfont iconxiangyou"></view>
+    </view>
+    <view class="flex serve serve1">
+        <view>订单备注</view>
+        <input type="text/" class="input" placeholder="选填，请先和商家协商一致"/>
+    </view>
+    <view style="height: 79rpx;"></view>
+</view>
+
+<view class="flex terms_wrap">
+    <view class="iconfont iconxuanze-yixuan"></view><!--iconxuanze-->
+    <view class="serve_terms">以阅读并同意《服务条款》</view>
+</view>
+
+<view class="pay_btn flex">
+    <view class="pay_btn_left">
+        <text>合计：</text>
+        <text style="color: #03BF9D;">¥356.00</text>
+    </view>
+    <view class="pay_btn_right">立即支付</view>
+</view>

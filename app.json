@@ -4,7 +4,8 @@
     "pages/serve/serve",
     "pages/mine/mine",
     "pages/serveOrder/serveOrder",
-    "pages/subscribe/subscribe"
+    "pages/subscribe/subscribe",
+    "pages/createOrder/createOrder"
   ],
   "window":{
     "backgroundTextStyle":"light",

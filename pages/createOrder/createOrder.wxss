@@ -1,0 +1,141 @@
+page {
+    background: #F2F2F2;
+}
+.address {
+    background-color: #fff;
+    font-size: 26rpx;
+    color: #333;
+    padding: 32rpx 30rpx;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.address .top {
+    margin-bottom: 32rpx;
+}
+
+.address .top .name {
+    margin-right: 40rpx;
+}
+
+.address .bottom {
+    line-height: 33rpx;
+    max-width: 580rpx;
+    color: #666;
+}
+
+.iconxiangyou {
+    font-size: #999;
+}
+
+.division {
+    width: 750rpx;
+    height: 14rpx;
+    background-color: #ccc;
+    display: block;
+}
+
+.goods_img {
+    width: 170rpx;
+    height: 170rpx;
+    background-color: #ccc;
+    border-radius: 10rpx;
+    margin-right: 24rpx;
+}
+
+.goods_info {
+    font-size: 28rpx;
+    color: #333;
+    margin: 0 30rpx 0;
+    padding-top: 32rpx;
+}
+
+.order_info {
+    background-color: #fff;
+    width: 750rpx;
+}
+
+.goods_info .right {
+    justify-content: space-between;
+    align-items: center;
+    width: 490rpx;
+}
+
+.goods_name {
+    line-height: 1;
+    margin-bottom: 32rpx;
+}
+
+.goods_price {
+    color: #E04B90;
+}
+
+.goods_num {
+    color: #999;
+}
+
+.order_info .serve {
+    height: 92rpx;
+    line-height: 92rpx;
+    justify-content: space-between;
+    margin: 10rpx 30rpx 0;
+    border-bottom: 1rpx solid #f2f2f2;
+}
+
+.order_info .serve .iconxiangyou {
+    font-size: 24rpx;
+    color: #999;
+}
+
+.order_info .serve1 {
+    justify-content: left;
+}
+
+.order_info .serve1 .input {
+    width: 500rpx;
+    font-size: 24rpx;
+    color: #333;
+    height: 92rpx;
+    margin-left: 40rpx;
+}
+
+.iconxuanze-yixuan {
+    font-size: 30rpx;
+    color: #03BF9D;
+    padding-right: 16rpx;
+    padding-left: 30rpx;
+}
+
+.serve_terms {
+    font-size: 28rpx;
+    color: #999999;
+}
+
+.terms_wrap {
+    height: 92rpx;
+    align-items: center;
+}
+
+.pay_btn {
+    width: 750rpx;
+    height: 98rpx;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pay_btn_left {
+    margin-left: 30rpx;
+    color: #999;
+}
+
+.pay_btn_right {
+    width: 212rpx;
+    height: 98rpx;
+    background: #03BF9D;
+    color: #fff;
+    text-align: center;
+    line-height: 98rpx;
+}
