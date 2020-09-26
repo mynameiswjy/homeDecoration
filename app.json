@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/serve/serve",
     "pages/mine/mine",
-    "pages/serveOrder/serveOrder"
+    "pages/serveOrder/serveOrder",
+    "pages/subscribe/subscribe"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -35,6 +36,11 @@
         "selectedIconPath": "images/tabbar/select_mine.png"
       }
     ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

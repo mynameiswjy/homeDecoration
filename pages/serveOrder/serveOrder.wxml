@@ -8,4 +8,26 @@
         </view>
     </view>
 </view>
-<view></view>
+<view class="nav flex">
+    <view class="nav_item {{navIdx==0?'nav_item1':''}}" bindtap="navBtn" data-idx="{{0}}">施工进度</view>
+    <view style="width: 94rpx;"></view>
+    <view class="nav_item {{navIdx==1?'nav_item1':''}}" bindtap="navBtn" data-idx="{{1}}">施工直播</view>
+</view>
+
+<view class="user_info">
+    <view class="flex top">
+        <image src="" class="img" mode="widthFix"></image>
+        <view class="top_center">
+            <view>服务单号：10888767776</view>
+            <view class="txt2">全托管家：张三（180****7695）</view>
+            <view>朝阳区花苑小区</view>
+        </view>
+        <view class="score_btn">去评分</view>
+    </view>
+    <view class="progress flex">
+        <view class="progress_item {{index+1==6?'':'progress_item_right'}}" wx:for="{{6}}" wx:key="index">
+            <view class="icon {{index+1==6?'':'icon1'}}"></view>
+            <view class="name">预定</view>
+        </view>
+    </view>
+</view>
