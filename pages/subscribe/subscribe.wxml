@@ -5,10 +5,10 @@
         <view class="flex flow_list">
             <block wx:for="{{flowPath}}" wx:key="index">
                 <view class="flow_item">
-                    <image src="" mode="" class="img"></image>
+                    <image src="{{item.img}}" mode="" class="img"></image>
                     <view>{{item.name}}</view>
                 </view>
-                <image src="" class="arrows" wx:if="{{index+1!==4}}"></image>
+                <image src="https://www.mengniuhealth.cn/fitment/icon/subscribe_5.png" class="arrows" wx:if="{{index+1!==4}}"></image>
             </block>
         </view>
         <view class="flex input_wrap">
@@ -24,5 +24,44 @@
         </view>
         <view class="subscribe_btn">立即预约</view>
     </view>
+    <view class="exhibition_wrap flex">
+        <view wx:for="{{exhibitionList}}" wx:key="index"
+              class="flex exhibition_item {{(index+1)%2==1?'bor_right':''}} {{!isBorBottom?'bor_bottom':''}}"
+        >
+            <view class="exhibition_name">{{item.name}}</view>
+            <view class="exhibition_img">
+                <image src="{{item.img}}" mode="widthFix" style="width: {{item.width}}rpx" class=""></image>
+            </view>
+        </view>
+    </view>
+    <view class="ad">
+        <view style="height: 55rpx;"></view>
+        <image src="" class="ad_content"></image>
+        <view class="ad_btn">免费领取壁布</view>
+    </view>
+    <view class="sample_title">标准化成品保护</view>
+    <view class="sample_list flex">
+        <view wx:for="{{9}}" wx:key="index" class="sample_item {{(index+1)%3?'sample_mar_right':''}}">
+            <image src="" class="sample_img"></image>
+            <view class="txt">电路保护</view>
+        </view>
+    </view>
 </view>
 <view class="page_bg" style="background-image: url('./subscribe_bg.png')"></view>
+<view class="hb_wrap" bindtap="closeHb" wx:if="{{isOpenHb}}">
+    <view class="hb_content" catchtap="stop">
+        <view class="hb_title">100壁布免费领取</view>
+        <view class="flex coupon">
+            <view class="coupon_left">
+                <text style="font-size: 29rpx">¥</text>
+                <text>6800</text>
+            </view>
+            <view class="coupon_right">
+                <view class="txt5">不含人工费用</view>
+                <view class="txt6">限线上预约工人使用</view>
+            </view>
+        </view>
+        <input class="get_phone" placeholder-style="color: #FEE3A1;text-align: center;"  placeholder="请输入手机号" type="number"/>
+        <view class="hb_btn">确认领取</view>
+    </view>
+</view>

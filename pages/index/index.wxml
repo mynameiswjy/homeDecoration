@@ -68,3 +68,27 @@
     </view>
   </view>
 </view>
+
+<view class="mask_ad" wx:if="{{IsOpenMask}}">
+  <view class="mask_ad_content">
+    <view class="top">
+      <view style="height: 265rpx;"></view>
+      <view class="price_wrap">
+        <view class="price">
+          <text>¥</text>
+          <text class="num">4999</text>
+          <text>元</text>
+        </view>
+        <view class="explain">仅限装修抵用现金使用</view>
+        <input type="number" class="get_phone get_phone1" placeholder="输入手机号码领取红包"/>
+        <view class="phone_code get_phone flex">
+          <input type="number" class="code_input" placeholder="验证码"/>
+          <view class="code_btn">获取验证码</view>
+        </view>
+      </view>
+      <view class="packet_red">领取红包</view>
+    </view>
+    <view class="iconfont iconguanbi" bindtap="closeBtn"></view>
+  </view>
+
+</view>

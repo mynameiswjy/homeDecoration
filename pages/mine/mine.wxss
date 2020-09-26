@@ -1,1 +1,104 @@
-/* pages/mine/mine.wxss */
+page {
+    background-image: url("https://www.mengniuhealth.cn/fitment/icon/mine_bg.png");
+    background-repeat: no-repeat;
+    background-size: 750rpx 293rpx;
+    background-color: #F2F2F2;
+}
+
+.user_info {
+    width: 690rpx;
+    height: 305rpx;
+    background: #FFFFFF;
+    box-shadow: 0 0 10rpx rgba(0, 0, 0, 0.2);
+    border-radius: 20rpx;
+    margin: 0 30rpx;
+}
+
+.user_info .top {
+    align-items: center;
+}
+
+.user_info .top .avatar {
+    width: 120rpx;
+    max-height: 120rpx;
+    border-radius: 60rpx;
+    background-color: #ccc;
+    margin: 32rpx 32rpx 45rpx 20rpx;
+}
+
+.user_info .top .txt {
+    font-size: 32rpx;
+    line-height: 1;
+    color: #222222;
+}
+
+.user_info .bottom_item {
+    flex: 1;
+    text-align: center;
+}
+
+.user_info .bottom_item .txt1 {
+    font-size: 36rpx;
+    line-height: 1;
+    color: #222222;
+    margin-bottom: 16rpx;
+}
+
+.user_info .bottom_item .txt2 {
+    font-size: 24rpx;
+    line-height: 1;
+    color: #919191;
+}
+
+.mine_item_wrap {
+    background-color: #fff;
+    padding: 0 20rpx;
+    width: 650rpx;
+    margin: 0 30rpx;
+    border-radius: 10rpx;
+}
+
+.mine_item {
+    width: 650rpx;
+    height: 100rpx;
+    background: #FFFFFF;
+    border-radius: 10rpx;
+    margin: 24rpx auto;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 28rpx;
+    color: #404040;
+    padding: 0 20rpx;
+}
+
+.mine_item1 {
+    width: 610rpx;
+    height: 100rpx;
+}
+
+.mine_item2 {
+    border-bottom: 1rpx solid #dfdfdf;
+}
+
+.mine_item3 {
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+}
+
+.icondingdan {
+    color: #03BF9D;
+    font-size: 40rpx;
+    margin-right: 24rpx;
+}
+
+.iconxiangyou {
+    font-size: 26rpx;
+    color: #999;
+}
+
+.mine_item .txt3 {
+    font-size: 28rpx;
+    color: #404040;
+    margin-right: 46rpx;
+}

@@ -2,7 +2,7 @@ const app = getApp()
 
 Page({
   data: {
-
+    IsOpenMask: false
   },
 
   onLoad: function () {
@@ -10,5 +10,10 @@ Page({
   },
   onShow() {
 
+  },
+  closeBtn() {
+    this.setData({
+      IsOpenMask: false
+    })
   }
 })

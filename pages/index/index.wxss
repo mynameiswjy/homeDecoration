@@ -168,3 +168,110 @@
 }
 
 /*goodsList end*/
+
+.mask_ad {
+  position: fixed;
+  top: 0;
+  width: 750rpx;
+  bottom: 0;
+  background-color: rgba(0,0,0, .25);
+}
+
+.mask_ad_content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 559rpx;
+}
+
+.mask_ad_content .top {
+  width: 559rpx;
+  height: 913rpx;
+  background-color: #ccc;
+  background-image: url("https://www.mengniuhealth.cn/fitment/icon/index_ad_bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20rpx;
+}
+
+.iconguanbi {
+  font-size: 45rpx;
+  color: #fff;
+  text-align: center;
+  padding-top: 24rpx;
+}
+
+.mask_ad_content .price_wrap {
+  width: 560rpx;
+  height: 400rpx;
+}
+
+.mask_ad_content .price {
+  font-size: 30rpx;
+  color: #FF5531;
+  text-align: center;
+  line-height: 1;
+  padding-top: 23rpx;
+  margin-bottom: 12rpx;
+}
+
+.mask_ad_content .price .num {
+  font-size: 50rpx;
+  line-height: 1;
+}
+
+.mask_ad_content .explain {
+  font-size: 22rpx;
+  line-height: 1;
+  color: #8D434D;
+  text-align: center;
+}
+
+.get_phone {
+  width: 260rpx;
+  height: 66rpx;
+  background: #FFFFFF;
+  border-radius: 34rpx;
+  color: 333;
+  font-size: 24rpx;
+}
+
+.get_phone1 {
+  margin: 126rpx auto 25rpx;
+  padding: 0 35rpx;
+}
+
+.phone_code {
+  width: 330rpx;
+  margin: 0 auto;
+}
+
+.phone_code input {
+  width: 157rpx;
+  height: 66rpx;
+  padding-left: 35rpx;
+}
+
+.phone_code .code_btn {
+  width: 139rpx;
+  background: linear-gradient(180deg, #FBE6CF 0%, #FACFA0 100%);
+  border-radius: 0 34rpx 34rpx 0;
+  font-size: 22rpx;
+  line-height: 66rpx;
+  text-align: center;
+  color: #D23023;
+}
+
+.packet_red {
+  background-image: url("https://www.mengniuhealth.cn/fitment/icon/index_ad_btn.png");
+  height: 74rpx;
+  width: 458rpx;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 110rpx auto 0;
+  font-size: 31rpx;
+  line-height: 74rpx;
+  text-align: center;
+  color: #D23023;
+}

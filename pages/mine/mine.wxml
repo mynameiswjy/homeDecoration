@@ -1,2 +1,58 @@
-<!--pages/mine/mine.wxml-->
-<text>pages/mine/mine.wxml</text>
+<view class="user_info">
+    <view class="top flex">
+        <image src="" mode="widthFix" class="avatar"></image>
+        <view class="txt">登录 / 注册</view>
+    </view>
+    <view class="flex bottom">
+        <view class="bottom_item">
+            <view class="txt1">45</view>
+            <view class="txt2">关注</view>
+        </view>
+        <view class="bottom_item">
+            <view class="txt1">45</view>
+            <view class="txt2">收藏</view>
+        </view>
+        <view class="bottom_item">
+            <view class="txt1">45</view>
+            <view class="txt2">喜欢</view>
+        </view>
+    </view>
+</view>
+
+<view class="mine_item flex">
+    <view class="flex">
+        <view class="iconfont icondingdan"></view>
+        <view>服务订单</view>
+    </view>
+    <view class="iconfont iconxiangyou"></view>
+</view>
+
+<view class="mine_item_wrap">
+    <view class="mine_item flex mine_item2 mine_item3">
+        <view class="flex">
+            <view class="txt3">联系电话</view>
+            <view style="color: #919191;">400-10012345</view>
+        </view>
+        <view class="iconfont iconxiangyou"></view>
+    </view>
+    <view class="mine_item flex mine_item2 mine_item3">
+        <view class="flex">
+            <view class="txt3">在线咨询</view>
+        </view>
+        <view class="iconfont iconxiangyou"></view>
+    </view>
+    <view class="mine_item flex mine_item3">
+        <view class="flex">
+            <view class="txt3">我的卡卷</view>
+        </view>
+        <view class="iconfont iconxiangyou"></view>
+    </view>
+</view>
+
+
+<view class="mine_item flex">
+    <view class="flex">
+        <view class="txt3">设置</view>
+    </view>
+    <view class="iconfont iconxiangyou"></view>
+</view>

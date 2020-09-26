@@ -6,4 +6,4 @@ dist
 .idea/*
 test.html
 test.js
-
+project.config.json
