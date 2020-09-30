@@ -1,5 +1,9 @@
 @import "iconfont.wxss";
 
+view, text, textarea {
+    font-family: 'PingFang SC', 'Microsoft Yahei';
+}
+
 .flex {
     display: flex;
 }
