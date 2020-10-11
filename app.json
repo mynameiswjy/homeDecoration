@@ -5,7 +5,8 @@
     "pages/mine/mine",
     "pages/serveOrder/serveOrder",
     "pages/subscribe/subscribe",
-    "pages/createOrder/createOrder"
+    "pages/createOrder/createOrder",
+    "pages/freeHome/freeHome"
   ],
   "window":{
     "backgroundTextStyle":"light",

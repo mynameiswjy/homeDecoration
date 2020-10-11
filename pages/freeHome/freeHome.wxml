@@ -1,0 +1,63 @@
+<view>
+    <image src="" class="page_bg"></image>
+    <view class="user_info">
+        <view class="flex serve_list">
+            <view class="flex serve_item">
+                <view class="iconfont iconxuanze-yixuan"></view>
+                <view>线上预约</view>
+            </view>
+            <view class="flex serve_item">
+                <view class="iconfont iconxuanze-yixuan"></view>
+                <view>上门测量</view>
+            </view>
+            <view class="flex serve_item">
+                <view class="iconfont iconxuanze-yixuan"></view>
+                <view>设计方案</view>
+            </view>
+        </view>
+        <view class="address flex">
+            <view class="flex">
+                <view class="iconfont icondingwei"></view>
+                <view>您的位置</view>
+            </view>
+            <view class="iconfont iconxiangyou"></view>
+        </view>
+        <view class="address flex">
+            <view class="flex">
+                <view class="iconfont iconshoujihao"></view>
+                <input type="text" placeholder="您的电话" placeholder-style="color: #ccc;"/>
+            </view>
+            <view class=""></view>
+        </view>
+        <view class="submit_btn">立即预约</view>
+    </view>
+    <view class="understand_wrap">
+        <view class="sample_title">为什么要量房</view>
+        <view class="understand_list">
+            <view class="understand_item flex">
+                <image src="" class="img"></image>
+                <view class="introduce">
+                    <view class="txt">了解房屋详细尺寸数据</view>
+                    <view style="margin-bottom: 16rpx;">多项专业勘察和检测</view>
+                    <view>多项专业勘察和检测</view>
+                </view>
+            </view>
+            <view class="understand_item flex">
+                <view class="introduce">
+                    <view class="txt">了解房屋详细尺寸数据</view>
+                    <view style="margin-bottom: 16rpx;">多项专业勘察和检测</view>
+                    <view>多项专业勘察和检测</view>
+                </view>
+                <image src="" class="img"></image>
+            </view>
+            <view class="understand_item flex">
+                <image src="" class="img"></image>
+                <view class="introduce">
+                    <view class="txt">了解房屋详细尺寸数据</view>
+                    <view style="margin-bottom: 16rpx;">多项专业勘察和检测</view>
+                    <view>多项专业勘察和检测</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
