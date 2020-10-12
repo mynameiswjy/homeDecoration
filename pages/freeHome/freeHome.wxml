@@ -60,4 +60,18 @@
             </view>
         </view>
     </view>
+    <view class="serve_process">
+        <view class="flow_title">服务流程</view>
+        <view class="flex flow_list">
+            <block wx:for="{{flowPath}}" wx:key="index">
+                <view class="flow_item">
+                    <image src="{{item.img}}" mode="" class="img"></image>
+                    <view>{{item.name}}</view>
+                </view>
+                <image src="https://www.mengniuhealth.cn/fitment/icon/subscribe_5.png" class="arrows" wx:if="{{index+1!==4}}"></image>
+            </block>
+        </view>
+        <view class="submit_btn">立即预约</view>
+    </view>
+    <view style="height: 40rpx;"></view>
 </view>

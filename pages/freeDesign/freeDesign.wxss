@@ -1,0 +1,21 @@
+page {
+    background-color: #F2F2F2;
+}
+
+.banner {
+    width: 750rpx;
+    height: 216rpx;
+    background-color: #ccc;
+    display: block;
+}
+
+
+.menu_icon {
+    width: 750rpx;
+    height: 424rpx;
+    background-color: #fff;
+}
+
+.menu_list {
+    flex-wrap: wrap;
+}

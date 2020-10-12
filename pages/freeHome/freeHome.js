@@ -1,44 +1,23 @@
 // pages/freeHome/freeHome.js
 Page({
 
-  /**
-   * 页面的初始数据
-   */
   data: {
-
+    flowPath: [
+      {img: 'https://www.mengniuhealth.cn/fitment/icon/subscribe_1.png', name: '在线预约'},
+      {img: 'https://www.mengniuhealth.cn/fitment/icon/subscribe_2.png', name: '电话沟通'},
+      {img: 'https://www.mengniuhealth.cn/fitment/icon/subscribe_3.png', name: '确认需求'},
+      {img: 'https://www.mengniuhealth.cn/fitment/icon/subscribe_4.png', name: '上门量房'}
+    ],
   },
 
-  /**
-   * 生命周期函数--监听页面加载
-   */
   onLoad: function (options) {
 
   },
 
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
   onShow: function () {
 
   },
 
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
   onUnload: function () {
 
   },

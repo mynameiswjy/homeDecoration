@@ -1,0 +1,9 @@
+<image src="" mode="widthFix" class="banner"></image>
+<view class="menu_icon">
+    <view class="menu_list flex">
+        <view wx:for="{{menuList}}" wx:key="index">
+            <image src="" mode="widthFix" class></image>
+            <view></view>
+        </view>
+    </view>
+</view>

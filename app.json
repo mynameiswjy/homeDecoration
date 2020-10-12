@@ -6,6 +6,7 @@
     "pages/serveOrder/serveOrder",
     "pages/subscribe/subscribe",
     "pages/createOrder/createOrder",
+    "pages/freeDesign/freeDesign",
     "pages/freeHome/freeHome"
   ],
   "window":{
