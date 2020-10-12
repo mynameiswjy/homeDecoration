@@ -31,3 +31,31 @@
         </view>
     </view>
 </view>
+<view class="daily_wrap">
+    <view class="daily_item">
+        <view class="daily_title flex">
+            <view>工地日报(已竣工)</view>
+            <view class="time">2020-5-26 17:35</view>
+        </view>
+        <view class="daily_content">
+            亲，晚上好，我是您的项目管家张三四，今天的施工 内容，木工安装，以下是施工现场的照片，情查阅。
+        </view>
+        <view class="daily_img flex">
+            <image src="" class="{{(index+1)%3!==0?'mar_right':''}}" mode="widthFix" wx:for="{{9}}" wx:key="index"></image>
+        </view>
+        <view class="daily_bott">张某某(监理管家)</view>
+    </view>
+    <view class="daily_item">
+        <view class="daily_title flex">
+            <view>工地日报(已竣工)</view>
+            <view class="time">2020-5-26 17:35</view>
+        </view>
+        <view class="daily_content">
+            亲，晚上好，我是您的项目管家张三四，今天的施工 内容，木工安装，以下是施工现场的照片，情查阅。
+        </view>
+        <view class="daily_img flex">
+            <image src="" class="{{(index+1)%3!==0?'mar_right':''}}" mode="widthFix" wx:for="{{9}}" wx:key="index"></image>
+        </view>
+        <view class="daily_bott">张某某(监理管家)</view>
+    </view>
+</view>

@@ -161,3 +161,68 @@ page {
 .user_info .progress_item .name {
     color: #999;
 }
+
+.daily_wrap {
+    width: 750rpx;
+    height: 1500rpx;
+    background: #FFFFFF;
+    margin-top: 24rpx;
+    font-size: 28rpx;
+    color: #333;
+    padding: 24rpx 30rpx 0 43rpx;
+    box-sizing: border-box;
+}
+
+.daily_item {
+    padding-left: 29rpx;
+    border-left: 4rpx solid #ccc;
+    width: 644rpx;
+}
+
+.daily_title {
+    justify-content: space-between;
+    position: relative;
+}
+.daily_title:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -46rpx;
+    width: 30rpx;
+    height: 30rpx;
+    background: #03BF9D;
+    border: 2rpx solid #CCCCCC;
+    border-radius: 30rpx;
+}
+
+.daily_title .time {
+    font-size: 22rpx;
+    line-height: 1;
+    color: #999999;
+}
+
+.daily_content {
+    margin: 24rpx 0;
+    line-height: 36rpx;
+}
+
+.daily_img {
+    flex-wrap: wrap;
+}
+
+.daily_img image {
+    width: 208rpx;
+    height: 208rpx;
+    background: #987A7A;
+    border-radius: 10rpx;
+    margin-bottom: 10rpx;
+}
+
+.daily_img .mar_right{
+    margin-right: 10rpx;
+}
+
+.daily_bott {
+    color: #999;
+    padding: 12rpx 0 49rpx;
+}
