@@ -3,19 +3,128 @@ page {
 }
 
 .banner {
-    width: 750rpx;
     height: 216rpx;
     background-color: #ccc;
     display: block;
 }
 
+.common_width {
+    width: 750rpx;
+}
+
 
 .menu_icon {
-    width: 750rpx;
-    height: 424rpx;
+    height: 376rpx;
     background-color: #fff;
+    padding: 24rpx 0;
 }
 
 .menu_list {
     flex-wrap: wrap;
+    font-size: 28rpx;
+    font-weight: 400;
+    line-height: 1;
+    color: #333333;
+    justify-content: center;
+}
+
+.menu_item {
+    margin-bottom: 32rpx;
+    text-align: center;
+    width: 140rpx;
+}
+
+.menu_right {
+    margin-right: 88rpx;
+}
+
+.icon_img {
+    width: 76rpx;
+    height: 76rpx;
+    background-color: #ccc;
+    display: block;
+    margin: 0 auto 16rpx;
+}
+
+.get_btn {
+    font-size: 40rpx;
+    line-height: 72rpx;
+    color: #FFFFFF;
+    width: 592rpx;
+    height: 72rpx;
+    background: #03BF9D;
+    border-radius: 10rpx;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.specialty_design {
+    margin-top: 24rpx;
+    height: 690rpx;
+    background-color: #fff;
+}
+
+.design_title {
+    font-size: 32rpx;
+    line-height: 1;
+    color: #010101;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 24rpx;
+}
+
+.design_txt {
+    font-size: 24rpx;
+    text-align: center;
+    color: #999999;
+}
+
+.design_swiper {
+    width: 750rpx;
+    height: 518rpx;
+    margin-top: 56rpx;
+}
+
+.swiper_item {
+    width: 538rpx;
+    height: 418rpx;
+    margin: 0rpx auto;
+    background: #bfa;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+    opacity: 1;
+    border-radius: 10rpx;
+}
+
+.anim_show {
+    animation: animShow 0.5s ease 1 alternate forwards;
+}
+
+.anim_hide {
+    animation: animHide 0.5s ease 1 alternate forwards;
+}
+
+@keyframes animShow {
+    0% {
+        height: 418rpx;
+        margin-top: 50rpx;
+    }
+    100% {
+        height: 518rpx;
+    }
+}
+
+@keyframes animHide {
+    0% {
+        height: 518rpx;
+    }
+    100% {
+        height: 418rpx;
+        margin-top: 50rpx;
+    }
+}
+
+.effect {
+    height: 664rpx;
+    margin-top: 24rpx;
+    background-color: #fff;
 }

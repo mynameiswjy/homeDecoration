@@ -1,0 +1,13 @@
+<view class="header" style="height: {{headHeight}}px;">
+    <view class="head_content flex" style="bottom: {{menuBottom}}px;">
+        <view class="left flex">
+            <view class="avatar" bindtap="clickMain">
+                <image src="{{avatar}}" class="img"></image>
+                <image src="http://img02.exam8.com/img2017/minapp/news_flash/mine_vip.png" wx:if="{{memberInfo.hasVipPrivilege}}" class="news_vip_icon"></image>
+            </view>
+            <view class="iconfont nav_ic_search" wx:if="{{IsSearch}}" bindtap="searchBtn"></view>
+        </view>
+        <view class="title">{{subjectTitle}}</view>
+    </view>
+</view>
+<view style="height: {{headHeight}}px;"></view>

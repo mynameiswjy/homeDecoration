@@ -1,0 +1,65 @@
+@import "../../iconfont.wxss";
+
+.flex {
+  display: flex;
+}
+
+.header {
+  width: 750rpx;
+  position: fixed;
+  z-index: 9999999;
+}
+
+.head_content {
+  position: absolute;
+  width: 750rpx;
+  left: 0;
+  /*background-color: #baf;*/
+  height: 32px;
+  align-items: center;
+  justify-content: center;
+}
+
+.head_content .left {
+  position: absolute;
+  left: 30rpx;
+  top: 6rpx;
+  align-items: center;
+}
+
+.head_content .left .avatar {
+  width: 56rpx;
+  height: 56rpx;
+  background-color: #ccc;
+  margin-right: 20rpx;
+  border-radius: 28rpx;
+  position: relative;
+}
+
+.head_content .left .avatar .img {
+  width: 56rpx;
+  height: 56rpx;
+  border-radius: 28rpx;
+}
+
+.head_content .left .avatar .news_vip_icon {
+  height: 21rpx;
+  width: 22rpx;
+  position: absolute;
+  right: -6rpx;
+  bottom: 0;
+  font-weight: 600;
+}
+
+.head_content .title {
+  line-height: 32rpx;
+  font-size: 34rpx;
+  font-weight: 500;
+  color: #fff;
+}
+
+.nav_ic_search {
+  color: #fff;
+  font-size: 36rpx;
+  padding: 0 22rpx;
+}

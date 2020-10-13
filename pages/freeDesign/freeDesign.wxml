@@ -1,9 +1,26 @@
-<image src="" mode="widthFix" class="banner"></image>
-<view class="menu_icon">
+<image src="" mode="widthFix" class="banner common_width"></image>
+<view class="menu_icon common_width">
     <view class="menu_list flex">
-        <view wx:for="{{menuList}}" wx:key="index">
-            <image src="" mode="widthFix" class></image>
-            <view></view>
+        <view wx:for="{{menuList}}" wx:key="index" class="menu_item {{(index+1)%3!==0?'menu_right':''}}">
+            <image src="" mode="widthFix" class="icon_img"></image>
+            <view>{{item.name}}</view>
         </view>
     </view>
+    <view class="get_btn">一键获取</view>
+</view>
+<view class="specialty_design common_width">
+    <view class="design_title">专业设计师1对1服务</view>
+    <view class="design_txt">私人订制  合适的才是好的</view>
+    <swiper class="design_swiper" circular previous-margin="90rpx" next-margin="90rpx" bindchange="swiperChange">
+        <swiper-item wx:for="{{5}}" wx:key="index">
+            <view class="swiper_item {{currentIdx==index?'anim_show':'anim_hide'}}">
+                {{index}}
+            </view>
+        </swiper-item>
+    </swiper>
+    <view style="height: 1rpx;"></view>
+</view>
+<view class="common_width effect">
+    <view class="design_title">三步高效出图</view>
+    <view class="design_txt">做最优选择</view>
 </view>
