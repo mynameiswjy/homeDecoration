@@ -1,0 +1,38 @@
+<view>
+    <image src="" mode="widthFix" class="banner"></image>
+    <view class="common_box top">
+        <view class="top_price">
+            <text style="font-size: 24rpx;">¥</text>
+            <text>2500.00</text>
+        </view>
+        <view class="top_name">张三工时费(品牌墙布免费送)</view>
+        <view class="evaluation">专业师傅，24小时换新家，超高好评率</view>
+    </view>
+    <view class="common_box bottom">
+        <view class="bottom_item">
+            <text style="margin-right: 40rpx;color: #999;">服务内容</text>
+            <text>客厅，卧室，餐厅等壁布安装</text>
+        </view>
+        <view class="bottom_item">
+            <text style="margin-right: 40rpx;color: #999;">服务时间</text>
+            <text>施工可预约派单</text>
+        </view>
+        <view class="bottom_item">
+            <text style="margin-right: 40rpx;color: #999;">服务类型</text>
+            <text>上门服务</text>
+        </view>
+        <view class="bottom_item">
+            <text style="margin-right: 40rpx;color: #999;">注意事项</text>
+            <text>您购买预约后(定制产品)，本服务不支退换</text>
+        </view>
+        <view class="bottom_item">
+            <text style="margin-right: 40rpx;color: #999;">有效日期</text>
+            <text>活动期内有效</text>
+        </view>
+        <view class="bottom_item1">
+            <view class="active_txt1">活动期内有效</view>
+            <view class="active_txt2">凭本商场购物凭证免费领取品牌墙布100平米（市场价 68元/平米）如超出免费平米数，按68元/每平米结算， 此服务只收取工时费，不含其他任何费用，超出不另收 取工时费。本活动另延保2年。 注:此活动只支持北京市区，最终解释权归活动方所有。</view>
+        </view>
+        <view class="subscribe_btn">立即预约</view>
+    </view>
+</view>
