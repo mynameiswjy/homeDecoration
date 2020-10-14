@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "十秒报价",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "NavTemp": "/components/NavTemp/NavTemp"
+  }
+}

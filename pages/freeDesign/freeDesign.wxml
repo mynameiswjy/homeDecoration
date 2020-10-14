@@ -23,4 +23,23 @@
 <view class="common_width effect">
     <view class="design_title">三步高效出图</view>
     <view class="design_txt">做最优选择</view>
+    <view class="effect_list flex">
+        <view class="effect_item {{index==0?'effect_item_one':''}} {{index===1?'effect_item_two':''}}" wx:for="{{3}}" wx:key="index">
+            <image src="" class="effect_img"></image>
+            <view class="effect_txt">空间规划</view>
+        </view>
+    </view>
+</view>
+<view class="common_width user_info">
+    <view class="design_title">0元设计</view>
+    <view class="design_txt">每日限量100名</view>
+    <view class="free_input flex">
+        <view class="iconfont iconyonghu"></view>
+        <input type="text" placeholder="您的昵称" placeholder-style="color:#ccc;"/>
+    </view>
+    <view class="free_input flex">
+        <view class="iconfont iconshoujihao"></view>
+        <input type="text" placeholder="您的电话" placeholder-style="color:#ccc;"/>
+    </view>
+    <view class="user_info_btn">免费获取设计方案</view>
 </view>

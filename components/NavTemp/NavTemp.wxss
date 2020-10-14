@@ -30,25 +30,12 @@
 .head_content .left .avatar {
   width: 56rpx;
   height: 56rpx;
-  background-color: #ccc;
-  margin-right: 20rpx;
-  border-radius: 28rpx;
   position: relative;
 }
 
-.head_content .left .avatar .img {
-  width: 56rpx;
-  height: 56rpx;
-  border-radius: 28rpx;
-}
-
-.head_content .left .avatar .news_vip_icon {
-  height: 21rpx;
-  width: 22rpx;
-  position: absolute;
-  right: -6rpx;
-  bottom: 0;
-  font-weight: 600;
+.avatar .iconfanhui {
+  font-size: 40rpx;
+  line-height: 56rpx;
 }
 
 .head_content .title {

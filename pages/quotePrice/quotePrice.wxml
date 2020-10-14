@@ -1,0 +1,31 @@
+<NavTemp bindnavHeight="navHeight"></NavTemp>
+<view>
+    <image src="" class="top_bg"></image>
+    <view style="height: 489rpx;"></view>
+    <view class="common_box get_price">
+        <view class="common_input_wrap flex input_one">
+            <view></view>
+            <view class="right">
+                <text>27154</text>
+                <text style="font-size: 30rpx;font-weight: bold;">元</text>
+            </view>
+        </view>
+        <view class="common_input_wrap input_two flex">
+            <view>选择你的位置</view>
+            <view class="iconfont iconxiangyou1"></view>
+        </view>
+        <view class="common_input_wrap input_two flex">
+            <input type="text"placeholder="请输入房屋面积" placeholder-style="color:#ccc;"/>
+            <view class="">㎡</view>
+        </view>
+        <view class="get_price_btn">获取报价明细</view>
+    </view>
+    <image mode="widthFix" class="get_data_title" src="https://www.mengniuhealth.cn//fitment/quotePrice/data_source_title.png"></image>
+    <view class="data_source common_box">
+        <view class="data_source_item flex" wx:for="{{dataSource}}" wx:key="index">
+            <image src="{{item.img}}" mode="widthFix"></image>
+            <view>{{item.value}}</view>
+        </view>
+    </view>
+    <image mode="widthFix" class="get_data_title" src="https://www.mengniuhealth.cn//fitment/quotePrice/price_title.png"></image>
+</view>

@@ -5,7 +5,7 @@ Component({
   properties: {
     subjectTitle: {
       type: String,
-      value: '万题库'
+      value: '免费报价'
     },
     memberInfo: {
       type: Object,
@@ -29,47 +29,17 @@ Component({
   },
 
   pageLifetimes: {
-    show(){
-      this.setData({
-        avatar: app.globalData.userData.Avatar,
-        memberLatinos: app.globalData.memberLatinos
-      })
-      if (!app.globalData.userData.Avatar) {
-        app.checkContextWithShareOptions({}, () => {
-          this.setData({
-            avatar: app.globalData.userData.Avatar
-          })
-        })
-      }
-    }
   },
 
   methods: {
     getUserAvatar() {
       this.triggerEvent('getUserAvatar')
     },
-    reqUserAvatar(e) {
-      console.log(e);
-    },
 
     clickMain() {
       wx.navigateTo({
         url: `/pages/mine/mine`,
-        success() {
-          wx.setStorage({
-            key: 'IsOpenTopRemind',
-            data: true
-          })
-        }
-      })
-      /*this.triggerEvent('navHeight', {
-        navHeight
-      })*/
-    },
-
-    searchBtn() {
-      wx.navigateTo({
-        url: `/packageNewsFlash/pages/newsFlashSearch/newsFlashSearch`
+        success() {}
       })
     },
 

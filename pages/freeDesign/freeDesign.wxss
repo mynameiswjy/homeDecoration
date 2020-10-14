@@ -128,3 +128,82 @@ page {
     margin-top: 24rpx;
     background-color: #fff;
 }
+
+.effect_list {
+    width: 604rpx;
+    flex-wrap: wrap;
+    margin: 32rpx auto 0;
+}
+
+.effect_item_one {
+    margin: 0 182rpx;
+}
+
+.effect_item_two {
+    margin-right: 124rpx;
+}
+
+.effect_item {
+    width: 240rpx;
+    height: 240rpx;
+    background-color: #03BF9D;
+    border-radius: 240rpx;
+    overflow: hidden;
+    position: relative;
+}
+
+.effect_img {
+    width: 236rpx;
+    height: 236rpx;
+    display: block;
+    border: 2rpx solid #03BF9D;
+    background-color: #ccc;
+    border-radius: 50%;
+}
+
+.effect_txt {
+    font-size: 28rpx;
+    line-height: 66rpx;
+    color: #FFFFFF;
+    width: 240rpx;
+    height: 66rpx;
+    background-color: #03BF9D;
+    position: absolute;
+    bottom: 2rpx;
+    text-align: center;
+    left: 0;
+}
+
+.user_info {
+    height: 428rpx;
+    margin-top: 24rpx;
+    background-color: #fff;
+}
+
+.free_input {
+    width: 568rpx;
+    height: 72rpx;
+    border: 1rpx solid #CCCCCC;
+    border-radius: 10rpx;
+    margin: 32rpx auto 32rpx;
+    align-items: center;
+    font-size: 28rpx;
+    padding-left: 24rpx;
+}
+
+.iconyonghu, .iconshoujihao {
+    font-size: 28rpx;
+    color: #ccc;
+    margin-right: 16rpx;
+}
+
+.user_info_btn {
+    width: 592rpx;
+    height: 72rpx;
+    background: #03BF9D;
+    border-radius: 10rpx;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    line-height: 72rpx;
+}
