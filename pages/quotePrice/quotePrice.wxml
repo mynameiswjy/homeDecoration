@@ -28,4 +28,11 @@
         </view>
     </view>
     <image mode="widthFix" class="get_data_title" src="https://www.mengniuhealth.cn//fitment/quotePrice/price_title.png"></image>
+    <view class="common_box plan_box">
+
+    </view>
+    <image mode="widthFix" class="get_data_title" src="https://www.mengniuhealth.cn//fitment/quotePrice/online_site_title.png"></image>
+    <view class="common_box scene_shows">
+
+    </view>
 </view>

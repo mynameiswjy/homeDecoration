@@ -103,3 +103,13 @@ page {
     margin-right: 40rpx;
     display: block;
 }
+
+.plan_box {
+    height: 456rpx;
+    border-radius: 20rpx;
+    background-color: #F2F2F2;
+}
+
+.scene_shows {
+    height: 731rpx;
+}
