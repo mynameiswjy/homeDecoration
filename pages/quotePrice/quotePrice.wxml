@@ -29,12 +29,62 @@
     </view>
     <image mode="widthFix" class="get_data_title" src="https://www.mengniuhealth.cn//fitment/quotePrice/price_title.png"></image>
     <view class="common_box plan_box flex">
-        <view class="plan_item_left"></view>
-        <view class="plan_item_right"></view>
+        <view class="plan_item_left">
+            <view class="title">主体项目占比</view>
+            <view class="scale_wrap flex">
+                <view class="top_left">
+                    <view class="name name1">卧室?</view>
+                </view>
+                <view class="top_right">
+                    <view class="name">水电?</view>
+                </view>
+                <view class="bottom_left">
+                    <view class="name">厨卫?</view>
+                </view>
+                <view class="bottom_right">
+                    <view class="name">客厅?</view>
+                </view>
+            </view>
+            <view class="flex ul">
+                <view class="li_item flex">
+                    <text class="icon1"></text>
+                    <text>卧室</text>
+                </view>
+                <view class="li_item flex">
+                    <text class="icon1 icon2"></text>
+                    <text>水电</text>
+                </view>
+                <view class="li_item flex">
+                    <text class="icon1 icon2"></text>
+                    <text>厨卫</text>
+                </view>
+                <view class="li_item flex">
+                    <text class="icon1 icon3"></text>
+                    <text>客厅</text>
+                </view>
+            </view>
+        </view>
+        <view class="plan_item_right">
+            <view style="height: 63rpx;"></view>
+            <image class="plan_right_img"></image>
+            <view class="plan_right_title">明细超清晰</view>
+            <view class="txt">人工，主材，辅材报价详 细价格透明</view>
+        </view>
     </view>
     <image mode="widthFix" class="get_data_title" src="https://www.mengniuhealth.cn//fitment/quotePrice/online_site_title.png"></image>
     <view class="common_box scene_shows">
-
+        <view class="flex scene_item">
+            <image src="" mode="widthFix" class="scene_img"></image>
+            <view class="value">工地日报，施工直播在线看</view>
+        </view>
+        <view class="flex scene_item">
+            <image src="" mode="widthFix" class="scene_img"></image>
+            <view class="value">监理检测，验收报告在线看</view>
+        </view>
+        <view class="flex scene_item">
+            <image src="" mode="widthFix" class="scene_img"></image>
+            <view class="value">施工进度，材料进场在线看</view>
+        </view>
     </view>
     <view style="height: 27rpx;"></view>
 </view>
