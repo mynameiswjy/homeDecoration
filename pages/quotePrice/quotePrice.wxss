@@ -108,8 +108,17 @@ page {
     height: 456rpx;
     border-radius: 20rpx;
     background-color: #F2F2F2;
+    overflow: hidden;
+    justify-content: space-between;
 }
 
 .scene_shows {
     height: 731rpx;
+    border-radius: 20rpx;
+}
+
+.plan_item_left, .plan_item_right {
+    width: 340rpx;
+    height: 456rpx;
+    background-color: #fff;
 }
