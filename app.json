@@ -8,6 +8,8 @@
     "pages/createOrder/createOrder",
     "pages/freeDesign/freeDesign",
     "pages/quotePrice/quotePrice",
+    "pages/constructionList/constructionList",
+    "pages/subscribeDetail/subscribeDetail",
     "pages/freeHome/freeHome"
   ],
   "window":{

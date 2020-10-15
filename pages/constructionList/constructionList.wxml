@@ -1,0 +1,16 @@
+<view>
+    <image src="" mode="widthFix" class="banner"></image>
+    <view class="flex item" wx:for="{{8}}" wx:key="index">
+        <view class="flex" style="align-items: center;">
+            <image src="" mode="widthFix" class="avatar"></image>
+            <view>
+                <view class="flex user_info">
+                    <view>张三</view>
+                    <view>132****6902</view>
+                </view>
+                <view class="introduce">油漆工(壁布，壁纸)｜10年｜老师傅</view>
+            </view>
+        </view>
+        <view class="construct_btn">预约施工</view>
+    </view>
+</view>
