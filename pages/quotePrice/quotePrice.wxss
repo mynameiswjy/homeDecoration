@@ -240,7 +240,6 @@ page {
 .plan_right_img {
     width: 216rpx;
     height: 192rpx;
-    background-color: #ccc;
     display: block;
     margin: 0 auto 51rpx;
 }

@@ -66,7 +66,7 @@
         </view>
         <view class="plan_item_right">
             <view style="height: 63rpx;"></view>
-            <image class="plan_right_img"></image>
+            <image class="plan_right_img" src="https://www.mengniuhealth.cn//fitment/quotePrice/detail_icon.png"></image>
             <view class="plan_right_title">明细超清晰</view>
             <view class="txt">人工，主材，辅材报价详 细价格透明</view>
         </view>
