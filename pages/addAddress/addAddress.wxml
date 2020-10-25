@@ -1,0 +1,20 @@
+<view class="user_info flex">
+    <view class="user_key">姓名</view>
+    <input class="input_name" type="text" placeholder-class="placeholder_style" placeholder="收货人姓名"/>
+</view>
+<view class="user_info flex">
+    <view class="user_key">手机号码</view>
+    <input class="input_name" type="text" placeholder-class="placeholder_style" placeholder="请填写收货人手机号"/>
+</view>
+<view class="user_info flex">
+    <view class="user_key">所在地区</view>
+    <view class="flex" style="justify-content: space-between;width: 546rpx;align-items: center;">
+        <input class="input_name" type="text" placeholder-class="placeholder_style" placeholder="请选择地区"/>
+        <text class="iconfont iconxiangyou1"></text>
+    </view>
+</view>
+<view class="user_info flex">
+    <view class="user_key">详细地址</view>
+    <input class="input_name" type="text" placeholder-class="placeholder_style" placeholder="街道、楼牌号等"/>
+</view>
+<view class="save-btn">保存</view>

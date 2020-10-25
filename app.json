@@ -10,7 +10,8 @@
     "pages/quotePrice/quotePrice",
     "pages/constructionList/constructionList",
     "pages/subscribeDetail/subscribeDetail",
-    "pages/freeHome/freeHome"
+    "pages/freeHome/freeHome",
+    "pages/addAddress/addAddress"
   ],
   "window":{
     "backgroundTextStyle":"light",
