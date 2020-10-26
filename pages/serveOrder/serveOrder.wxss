@@ -226,3 +226,29 @@ page {
     color: #999;
     padding: 12rpx 0 49rpx;
 }
+
+.playback_img {
+    width: 337rpx;
+    height: 190rpx;
+    background: #746666;
+    border-radius: 10rpx;
+}
+
+.playback_title {
+    font-size: 32rpx;
+    line-height: 1;
+    color: #010101;
+    border-left: 4rpx solid #03BF9D;
+    padding-left: 16rpx;
+    margin: 32rpx 30rpx;
+}
+
+.playback_wrap {
+
+}
+
+.playback_list {
+    width: 690rpx;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
