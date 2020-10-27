@@ -1,0 +1,137 @@
+.banner {
+    width: 750rpx;
+    height: 422rpx;
+    background-color: #ccc;
+    display: block;
+}
+
+.case_wrap {
+    width: 690rpx;
+    background: #fff;
+    border-radius: 30rpx 30rpx 0 0;
+    height: 500rpx;
+    margin-top: -47rpx;
+    padding: 25rpx 30rpx 0;
+}
+
+.case_title {
+    max-width: 672rpx;
+    font-size: 32rpx;
+    font-weight: 600;
+    line-height: 40rpx;
+    color: #333333;
+    margin: 0 auto;
+}
+
+.avatar {
+    width: 116rpx;
+    height: 116rpx;
+    border-radius: 50%;
+    margin-right: 24rpx;
+    background-color: #ccc;
+}
+
+.user_info {
+    font-size: 28rpx;
+    color: #333;
+    line-height: 1;
+}
+
+.user_info_center {
+    margin-top: 40rpx;
+    margin-bottom: 48rpx;
+    justify-content: space-between;
+}
+
+.attention {
+    width: 124rpx;
+    height: 40rpx;
+    border: 1rpx solid #03BF9D;
+    border-radius: 21rpx;
+    font-size: 24rpx;
+    text-align: center;
+    line-height: 40rpx;
+    font-weight: 400;
+    color: #03BF9D;
+}
+
+.subscribe {
+    background-color: #03BF9D;
+    color: #fff;
+    margin-top: 24rpx;
+}
+
+.case {
+    width: 690rpx;
+    height: 244rpx;
+    background: #F2F2F2;
+    border-radius: 10rpx;
+    flex-wrap: wrap;
+    margin-bottom: 45rpx;
+}
+
+.case_item {
+    width: 230rpx;
+    text-align: center;
+    padding-top: 32rpx;
+}
+
+.case_item_top {
+    font-size: 24rpx;
+    font-weight: 400;
+    line-height: 1;
+    color: #999999;
+    margin-bottom: 16rpx;
+}
+
+.case_item_bottom {
+    font-size: 30rpx;
+    font-weight: 400;
+    line-height: 1;
+    color: #333333;
+}
+
+.title_border {
+    width: 4rpx;
+    height: 24rpx;
+    background: linear-gradient(90deg, #03BF9D 0%, #B6F8EC 100%);
+}
+
+.common_title {
+    align-items: center;
+    line-height: 1;
+    margin-bottom: 20rpx;
+    font-size: 32rpx;
+    color: #333;
+}
+
+.text1 {
+    font-size: 28rpx;
+    font-weight: 400;
+    line-height: 40rpx;
+    color: #333333;
+    max-width: 672rpx;
+    margin: 0 auto;
+}
+
+.map_img {
+    width: 690rpx;
+    height: 581rpx;
+    background-color: #ccc;
+    display: block;
+    margin: 40rpx 0 24rpx;
+}
+
+.map_txt {
+    font-size: 28rpx;
+    line-height: 1;
+    color: #333333;
+    margin: 24rpx auto 48rpx;
+}
+
+.home-img {
+    width: 690rpx;
+    height: 388rpx;
+    margin: 24rpx auto 45rpx;
+    background-color: #ccc;
+}

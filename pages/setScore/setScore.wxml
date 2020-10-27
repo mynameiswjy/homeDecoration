@@ -1,0 +1,12 @@
+<view class="score_title">服务团队评分</view>
+<view class="flex icon_wrap">
+    <view>满意度</view>
+    <view class="icon_xx flex">
+        <view class="iconfont iconxingxing {{selectIdx>=index?'iconxingxing_active':''}}" bindtap="iconChange" data-idx="{{index}}" wx:for="{{5}}" wx:key="index"></view>
+    </view>
+    <view>满意</view>
+</view>
+<textarea class="set_val" placeholder="可以在这里写下对设计、服务、施工过程中，的真实感受，与其他业主分享经验"></textarea>
+<view class="phone_video">添加照片或视频</view>
+<view class="iconfont iconxinpinchuangjian_jiahao"></view>
+<view class="confirm">确定</view>

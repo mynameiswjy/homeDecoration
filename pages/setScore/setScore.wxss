@@ -1,0 +1,69 @@
+.score_title {
+    font-size: 32rpx;
+    line-height: 1;
+    color: #333333;
+    padding-top: 56rpx;
+    margin-bottom: 65rpx;
+    margin-left: 30rpx;
+    font-weight: 600;
+}
+
+.icon_wrap {
+    font-size: 30rpx;
+    margin-left: 30rpx;
+    align-items: center;
+}
+
+.icon_xx {
+    margin: 0 17rpx 0 65rpx;
+}
+
+.iconxingxing {
+    font-size: 40rpx;
+    margin-right: 16rpx;
+    color: #ccc;
+}
+
+.iconxingxing_active {
+    color: #FE0F30;
+}
+
+.set_val {
+    width: 650rpx;
+    height: 312rpx;
+    background: #F5F5F5;
+    border-radius: 10rpx;
+    margin: 60rpx auto 60rpx;
+    padding: 24rpx 20rpx;
+}
+
+.phone_video {
+    font-size: 32rpx;
+    line-height: 1;
+    color: #3F3F3F;
+    margin: 64rpx 0 32rpx 30rpx;
+    font-weight: 600;
+}
+
+.iconxinpinchuangjian_jiahao {
+    width: 190rpx;
+    height: 190rpx;
+    background-color: #ECECEC;
+    text-align: center;
+    line-height: 190rpx;
+    font-size: 100rpx;
+    color: #fff;
+    margin-left: 30rpx;
+}
+
+.confirm {
+    width: 690rpx;
+    height: 74rpx;
+    background: #03BF9D;
+    color: #fff;
+    text-align: center;
+    line-height: 74rpx;
+    font-size: 30rpx;
+    border-radius: 10rpx;
+    margin: 140rpx auto 0;
+}

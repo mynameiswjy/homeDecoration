@@ -61,12 +61,13 @@
 </view>
 <view wx:if="{{navIdx==1}}" class="playback_wrap">
     <view class="playback_title">直播回放</view>
-    <view class="playback_list flex" wx:for="{{3}}" wx:key="index">
-        <view class="playback_item">
+    <view class="playback_list flex">
+        <view class="playback_item {{(index+1)%2==0?'':'playback_right'}}" wx:for="{{3}}" wx:key="index">
             <view class="playback_img">
-
+                <view class="iconfont iconbofang"></view>
+                <view class="playback_time">2020-7-20</view>
             </view>
-            <view>油漆施工录播</view>
+            <view class="playback_name">油漆施工录播</view>
         </view>
     </view>
 </view>

@@ -1,0 +1,53 @@
+<image src="" mode="widthFix" class="banner"></image>
+<view class="case_wrap">
+    <view class="case_title">【案例】看！别人家是如何装修的，现代简约轻奢风格，北京顺义</view>
+    <view class="flex user_info_center">
+        <view class="flex">
+            <image src="" class="avatar" mode="widthFix"></image>
+            <view class="user_info">
+                <view>张三</view>
+                <view style="margin: 16rpx 0;">全托服务｜首席设计师</view>
+                <view>风格：轻奢、极简、北欧</view>
+            </view>
+        </view>
+        <view>
+            <view class="attention">+关注</view>
+            <view class="attention subscribe">预约</view>
+        </view>
+    </view>
+    <view class="case flex">
+        <view class="case_item" wx:for="{{5}}" wx:key="index">
+            <view class="case_item_top">户型</view>
+            <view class="case_item_bottom">三居室</view>
+        </view>
+    </view>
+    <view class="flex common_title">
+        <view class="title_border"></view>
+        <view style="margin-left: 16rpx;">设计理念</view>
+    </view>
+    <view class="text1">气质里藏着你走过的路，读过的书，看过的风景；空间 里藏着你的生活习惯，日常习惯，和家人之间的牵绊； 本案融合多种风格进行混搭，靓丽的色彩将其升华，空 间细节感满溢，勾勒出一个理想中的家，“珍惜身边人 和当下的幸福，赠予爱人快乐及幸福”。</view>
+    <image src="" class="map_img"></image>
+    <view class="map_txt">平面装修效果图三室两厅轻奢风格—平面布局方案设计</view>
+    <view class="flex common_title">
+        <view class="title_border"></view>
+        <view style="margin-left: 16rpx;">客厅</view>
+    </view>
+    <view class="text1">客厅的吊顶处也嵌入了筒灯的设计。沙发背景墙同样刷
+        灰色，舍弃电视柜用大理石台面代替，大理石上摆放大
+        幅的装饰画作为点缀，电视的另一侧放了开放式的展示
+        架。</view>
+    <image src="" class="home-img"></image>
+    <view class="flex common_title">
+        <view class="title_border"></view>
+        <view style="margin-left: 16rpx;">玄关</view>
+    </view>
+    <view class="text1">客厅的吊顶处也嵌入了筒灯的设计。沙发背景墙同样刷
+        灰色，舍弃电视柜用大理石台面代替，大理石上摆放大
+        幅的装饰画作为点缀，电视的另一侧放了开放式的展示
+        架。</view>
+    <image src="" class="home-img"></image>
+    <view class="flex common_title">
+        <view class="title_border"></view>
+        <view style="margin-left: 16rpx;">为你推荐</view>
+    </view>
+</view>

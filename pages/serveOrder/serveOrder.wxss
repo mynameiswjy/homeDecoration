@@ -232,6 +232,7 @@ page {
     height: 190rpx;
     background: #746666;
     border-radius: 10rpx;
+    position: relative;
 }
 
 .playback_title {
@@ -240,15 +241,50 @@ page {
     color: #010101;
     border-left: 4rpx solid #03BF9D;
     padding-left: 16rpx;
-    margin: 32rpx 30rpx;
+    margin: 0 32rpx 30rpx;
+}
+
+.playback_right {
+    margin-right: 16rpx;
 }
 
 .playback_wrap {
-
+    background-color: #fff;
+    padding-top: 30rpx;
+    margin-top: 30rpx;
 }
 
 .playback_list {
     width: 690rpx;
     margin: 0 auto;
     flex-wrap: wrap;
+}
+
+.playback_item {
+    padding-bottom: 30rpx;
+}
+
+.playback_name {
+    font-size: 28rpx;
+    line-height: 1;
+    color: #010101;
+    margin-top: 16rpx;
+}
+
+.iconbofang {
+    color: #fff;
+    font-size: 50rpx;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.playback_time {
+    font-size: 20rpx;
+    line-height: 1;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 12rpx;
+    right: 12rpx;
 }

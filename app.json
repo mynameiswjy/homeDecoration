@@ -11,7 +11,9 @@
     "pages/constructionList/constructionList",
     "pages/subscribeDetail/subscribeDetail",
     "pages/freeHome/freeHome",
-    "pages/addAddress/addAddress"
+    "pages/addAddress/addAddress",
+    "pages/setScore/setScore",
+    "pages/caseDetails/caseDetails"
   ],
   "window":{
     "backgroundTextStyle":"light",
