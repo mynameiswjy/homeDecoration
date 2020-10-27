@@ -1,0 +1,34 @@
+<view class="goods_list flex">
+    <view class="goods_item">
+        <view class="item">
+            <image src="" mode="widthFix" class="goods_img"></image>
+            <view class="txt">简约后古典成时尚布艺, 装修必不可少复古成浪潮</view>
+            <view class="flex goods_item_bottom">
+                <view class="flex" style="align-items: center">
+                    <image src="" mode="widthFix" class="avatar"></image>
+                    <view class="txt1">张三设计师</view>
+                </view>
+                <view class="flex" style="align-items: center;">
+                    <view class="iconfont iconaixin"></view>
+                    <view class="">66</view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="goods_item" style="margin-left: 16rpx;">
+        <view class="item">
+            <image src="" mode="widthFix" class="goods_img"></image>
+            <view class="txt">简约后古典成时尚布艺, 装修必不可少复古成浪潮</view>
+            <view class="flex goods_item_bottom">
+                <view class="flex" style="align-items: center">
+                    <image src="" mode="widthFix" class="avatar"></image>
+                    <view class="txt1">张三设计师</view>
+                </view>
+                <view class="flex" style="align-items: center;">
+                    <view class="iconfont iconaixin"></view>
+                    <view class="">66</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

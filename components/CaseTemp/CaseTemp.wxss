@@ -1,0 +1,62 @@
+@import "../../iconfont.wxss";
+
+.flex {
+  display: flex;
+}
+/*goodsList start*/
+.goods_list {
+  width: 690rpx;
+  margin: 0 auto;
+}
+
+.goods_list .item {
+
+}
+
+.goods_item {
+  width: 337rpx;
+}
+
+.goods_list .goods_img {
+  width: 337rpx;
+  border-radius: 10rpx;
+  background-color: #ccc;
+  display: block;
+}
+
+.goods_item .item .txt {
+  font-size: 28rpx;
+  line-height: 36rpx;
+  color: #333333;
+  margin-top: 20rpx;
+  /*max-width: 308rpx;*/
+}
+
+.goods_item .item .txt1 {
+  line-height: 1;
+  max-width: 220rpx;
+}
+
+.goods_item_bottom {
+  font-size: 24rpx;
+  color: #999;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 13rpx;
+}
+
+.goods_item_bottom .avatar {
+  width: 40rpx;
+  height: 40rpx;
+  background-color: #ccc;
+  border-radius: 40rpx;
+  margin-right: 8rpx;
+}
+
+.iconaixin {
+  margin-right: 12rpx;
+  font-size: 30rpx;
+  font-weight: 600;
+}
+
+/*goodsList end*/
